@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: lightgray;
+}
+#head {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+#opps{
+    display: flex;
+    flex-direction: row;
+    gap: 3.33%;
+
+
+}
+.oppsclass{
+    border: 2px solid gray;
+    height:20vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+img{
+    height: 50%;
+    border-radius: 25px;
+    
+    width: 100%;
+}
+
+#BidBox{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+
+}
+#CurrentBid{
+    color:black;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+#PlrBox{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+
+#cards{
+    height: 50%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    
+}
+.crd{
+    border: 2px solid white;
+    width: 7.5%;
+    height: 25%;
+}
+
+#Bidopt{
+    height: 50%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+
+    
+
+}
+
+.Bidopt{
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#yrhi{
+    
+
+
+}
+#incbid{
+    cursor: pointer;;
+}

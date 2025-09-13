@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+#box{
+    border: 2px solid gray;
+    color: aliceblue;
+    border-radius: 25PX;
+    padding: 10%;
+}
+#box2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
+   
+
+}
+#next{
+    color: aliceblue;
+    border: 2px solid gray;
+    border-radius: 25px;
+
+}
+#next:hover{
+    cursor: pointer;
+    
+}
+#end{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position:relative;
+    background-color:black;
+    color: aliceblue;
+}

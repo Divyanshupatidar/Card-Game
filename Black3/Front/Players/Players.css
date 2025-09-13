@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+
+}
+#Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 10%;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+#loading-box{
+    max-width: 600px;
+
+
+}
+
+
+#loading-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    border: 1px solid gray;
+    border-radius: 25px;
+    height: 5px;
+    width: 0%;
+    background-color: gray;
+
+}
+
+
+#end{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position:relative;
+    background-color:black;
+    color: aliceblue;
+}
